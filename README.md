@@ -5,7 +5,7 @@ This project was created for practice purposes only and includes no backend func
 
 ## Live Demo
 
-Check it out here: [YourBank](https://your-demo-link.com)
+Check it out here: [YourBank](https://bytebitt.github.io/YourBank/)
 
 ## Technologies Used
 
