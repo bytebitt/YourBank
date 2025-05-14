@@ -26,17 +26,17 @@
             <div class="">
                 <ul class="flex gap-[26px] text-[14px leading-[150%] items-center">
                     <li><a href="" class="hover:text-[#CAFF33] bg-[#262626] w-[100px] h-[51px] md:w-[77px] md:h-[41px] rounded-[82px] 
-                        block md:flex items-center justify-center">Home</a></li>
-                    <li><a href="#Careers" class="hover:text-[#CAFF33]">Careers</a></li>
-                    <li><a href="#About" class="hover:text-[#CAFF33]">About</a></li>
-                    <li><a href="#Security" class="hover:text-[#CAFF33]">Security</a></li>
+                        block md:flex items-center justify-center transition-all duration-300">Home</a></li>
+                    <li><a href="#Careers" class="hover:text-[#CAFF33] transition-all duration-300">Careers</a></li>
+                    <li><a href="#About" class="hover:text-[#CAFF33] transition-all duration-300">About</a></li>
+                    <li><a href="#Security" class="hover:text-[#CAFF33] transition-all duration-300">Security</a></li>
                 </ul>
             </div>
         </nav>
         <div class="md:flex gap-5 text-[18px] md:text-[14px] hidden items-center">
-            <a href="#SignUp" class="hover:text-[#CAFF33]">Sign Up</a>
+            <a href="#SignUp" class="hover:text-[#CAFF33] transition-all duration-300">Sign Up</a>
             <a href="#Login" class="block md:flex items-center justify-center bg-[#CAFF33] w-[100px] h-[45px] rounded-[82px] text-black
-            hover:bg-transparent border-2 hover:border-[#CAFF33] hover:text-white">Login</a>
+            hover:bg-transparent border-2 hover:border-[#CAFF33] hover:text-white transition-all duration-300">Login</a>
         </div>
 
         <div id="burgerButton" class="lg:hidden md:hidden text-[#333333] bg-[#CAFF33] w-[56px] h-[40px] ml-auto rounded-[82px] flex justify-center items-center">
@@ -60,6 +60,140 @@
             </div>
         </div>
     </header>
+    <main>
+        <div class="md:flex justify-between items-start md:mt-5 max-w-[80%] mx-auto gap-10">
+            <div class="flex flex-col gap-[30px]">
+            <div class="bg-[#262626] flex items-center w-[245px] h-[40px] mx-auto rounded-[61px] mt-10 font-light text-[12px] px-2 md:mx-0 md:text-[14px] md:w-[278px]">
+                <img src="./images/home/maincheck.png" alt="">
+                <p class="pl-2">No LLC Required, No Credit Check.</p>
+            </div>
+            <div class="text-center text-[12px] font-light md:text-start">
+                <h1 class="font-medium text-[28px] leading-[150% md:text-[38px]">Welcome to YourBank <span class="block">Empowering Your </span><span class="block text-[#CAFF33]">Financial Journey</span></h1>
+                <p class="text-[#E4E4E7] md:text-[16px]">
+                    At YourBank, our mission is to provide comprehensive 
+                    <span class="block">banking solutions that empower individuals and</span>
+                    businesses to achieve their financial goals. We are  
+                    <span class="block">committed to delivering personalized and innovative</span>
+                    services that prioritize our customers' needs.
+                </p>
+            </div>
+            <button type="button" class="bg-[#CAFF33] w-[144px] h-[49px] rounded-[82px] text-black mx-auto text-[14px] font-normal
+            border-2 hover:bg-transparent hover:border-[#CAFF33] hover:text-white transition-all duration-300 md:mx-0">Open Account</button>
+        </div>
+        <div class="">
+
+            <!-- arrows (rt) -->
+            <!-- <div class="absolute top-130 -right-3 z-0 w-[215px]">
+                <img src="./images/home/arrows.png" alt="">
+            </div> -->
+
+            <div class="bg-[#1A1A1A] border-[0.51px] border-[#262626] w-[305px] h-[388px] mx-auto mt-10 flex flex-col rounded-[8px] relative z-10 md:w-[410px] md:h-[501px]">
+
+                <!-- montly icome (lt) -->
+                <div class="bg-[#22251B] w-[111px] h-[43.92px] flex items-center gap-2 rounded-[6.51px] absolute -top-6 -left-8 z-20 px-2 md:w-[150px] md:h-[60px] md:-top-9 md:-left-9">
+                    <button class="bg-[#CAFF33] w-[22px] h-[22px] rounded-full flex items-center justify-center">
+                        <i class="fa fa-plus text-[10px] text-black"></i>
+                    </button>
+                    <div class="flex flex-col">
+                        <p class="text-[10.26px] md:text-[13px]">+ $5000,00</p>
+                        <p class="text-[8.2px] font-light md:text-[11px]">Monthly Income</p>
+                    </div>
+                </div>
+
+                <div class="container max-w-[355px] mx-auto pt-5">
+                    <p class="text-[10.26px] font-medium md:text-[13px]">Your Transactions</p>
+                    <!-- column  -->
+                        <div class="flex flex-col mx-auto pt-3">
+                            <div class="flex items-center bg-[#1C1C1C] w-[264px] h-[45px] border-[0.51px] border-[#262626] rounded-[6.15px] px-5 mx-auto md:w-[355px] md:h-[62px]">
+                                <a href="" class="bg-[#CAFF33] w-[22px] h-[22px] rounded-full flex justify-center items-center">
+                                    <img src="./images/home/Vector (Stroke).png" alt="">
+                                </a>
+                                <div class="pl-2">
+                                    <p class="text-[9px] font-light">Transactions</p>
+                                    <p class="font-normal text-[10.26px]">Joel Kenley</p>
+                                </div>
+                                <p class="font-medium text-[12.31px] ml-auto not-even:pt-3">-$68.00</p>
+                            </div>
+                            <!-- column  -->
+                            <div class="">
+                            <div class="flex items-center bg-[#1C1C1C] w-[243px] h-[45px] border-[0.51px] border-[#262626]/15 rounded-[6.15px] px-5 mx-auto opacity-60 md:w-[327px] md:h-[62px]">
+                                <a href="" class="bg-[#CAFF33] w-[22px] h-[22px] rounded-full flex justify-center items-center">
+                                    <img src="./images/home/Vector (Stroke).png" alt="">
+                                </a>
+                                <div class="pl-2">
+                                    <p class="text-[9px] font-light">Transactions</p>
+                                    <p class="font-normal text-[10.26px]">Mark Smith</p>
+                                </div>
+                                <p class="font-medium text-[12.31px] ml-auto not-even:pt-3">-$68.00</p>
+                            </div>
+                        </div>
+                        <!-- column  -->
+                        <div class="">
+                            <div class="flex items-center bg-[#1C1C1C] w-[223px] h-[45px] border-[0.51px] border-[#262626]/15 rounded-[6.15px] px-5 mx-auto opacity-30 md:w-[300px] md:h-[62px]">
+                                <a href="" class="bg-[#CAFF33] w-[22px] h-[22px] rounded-full flex justify-center items-center">
+                                    <img src="./images/home/Vector (Stroke).png" alt="">
+                                </a>
+                                <div class="pl-2">
+                                    <p class="text-[9px] font-light">Transactions</p>
+                                    <p class="font-normal text-[10.26px]">Lenen Roy</p>
+                                </div>
+                                <p class="font-medium text-[12.31px] ml-auto not-even:pt-3">-$68.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-5">
+                        <p class="text-[10.26px] font-medium">Money Exchange</p>
+                        <div class="grid grid-cols-2 gap-0 bg-[#1C1C1C] w-[264px] h-[103px] rounded-2xl border-[0.51px] border-[#262626]/15 mt-5">
+                            <div class="w-[132.21px] h-[58.1px] border-[0.51px] border-[#262626]/15">
+                                <div class="flex items-center gap-2 p-2">
+                                    <img src="./images/home/india.png" alt="">
+                                    <p class="text-[9.23px]">INR</p>
+                                </div>
+                                <p class="font-light text-[8.2px] pl-2">Indian Rupees</p>
+                            </div>
+                            <div class="w-[132.21px] h-[58.1px] border-[0.51px] border-[#262626]/15">
+                                <div class="flex items-center gap-2 p-2">
+                                    <img src="./images/home/usa.png" alt="">
+                                    <p class="text-[9.23px]">USA</p>
+                                </div>
+                                <p class="font-light text-[8.2px] pl-2">United States Dollar</p>
+                            </div>
+                            <div class="w-[132.21px] h-[45px] border-[0.51px] border-[#262626]/15 flex items-center pl-3">
+                                <p class="font-medium text-[10.26px]">5,0000</p>
+                            </div>
+                            <div class="w-[132.21px] h-[45px] border-[0.51px] border-[#262626]/15 flex items-center pl-3">
+                                <p class="font-medium text-[10.26px]">12.00</p>
+                            </div>
+                        </div>
+                        <button type="button" class="w-[264.43px] h-[30.41px] bg-[#22251B] text-[#D1FF4D] mx-auto rounded-[42px] mt-3 text-[9px] 
+                        hover:bg-[#D1FF4D] hover:text-[#22251B] transition-colors duration-300">
+                            Exchange
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-[#22251B] w-[219px] h-[40.97px] flex items-center rounded-[41px] justify-between px-2 ml-auto mr-5 mt-5 md:w-[249px] md:h-[55px] md:p-3">
+                <button class="text-[9.23px] md:text-[12px]">
+                    Supported Currency
+                </button>
+                <div class="bg-[#1A1A1A] border-[0.51px] border-[#262626]/15 w-[104px] h-[30px] rounded-[28px] flex justify-between items-center px-1">
+                    <button class="bg-[#262626] w-[20px] h-[20px] rounded-full flex justify-center items-center">
+                        <img src="./images/home/dol.png" alt="" class="">
+                    </button>
+                    <button class="bg-[#262626] w-[20px] h-[20px] rounded-full flex justify-center items-center">
+                        <img src="./images/home/eur.png" alt="" class="">
+                    </button>
+                    <button class="bg-[#262626] w-[20px] h-[20px] rounded-full flex justify-center items-center">
+                        <img src="./images/home/bitc.png" alt="" class="">
+                    </button>
+                    <button class="bg-[#262626] w-[20px] h-[20px] rounded-full flex justify-center items-center">
+                        <img src="./images/home/eth.png" alt="" class="">
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
     <script src="./js/script.js"></script>
 </body>
 </html>
